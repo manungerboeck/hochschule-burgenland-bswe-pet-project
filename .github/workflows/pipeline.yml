@@ -34,7 +34,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        java-version: ["25", "26"]
+        java-version: ["26"]
 
     steps:
       - uses: step-security/harden-runner@v2.20.1
@@ -62,7 +62,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        java-version: ["25", "26"]
+        java-version: ["26"]
 
     steps:
       - uses: step-security/harden-runner@v2.20.1
@@ -94,7 +94,7 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        java-version: ["25", "26"]
+        java-version: ["26"]
 
     steps:
       - uses: step-security/harden-runner@v2.20.1
